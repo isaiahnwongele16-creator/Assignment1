@@ -1,0 +1,65 @@
+.itm1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(165, 42, 42, 0.644);
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.Live-demo{
+    display: flex;
+    background-color: #e9ecef;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+    .Live-demo{
+        display: block;
+    }
+    
+}
+.card{
+    border-radius: 10px;
+    text-align: center;
+}
+.itm2{
+    border-radius: 5px;
+}
+.card {
+    transition: transform 2s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.xanh-mono-regular {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.xanh-mono-regular {
+  font-family: "Xanh Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.itm3{
+    background-color: rgba(165, 42, 42, 0.644);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.itm3:hover{
+    transition: o.1s;
+    transform: scale(1.1);
+}
